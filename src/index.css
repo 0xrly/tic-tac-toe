@@ -67,7 +67,7 @@ body {
 
 .turn {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin: 15px auto;
   width: fit-content;
   position: relative;
@@ -129,4 +129,5 @@ body {
   place-items: center;
   cursor: pointer;
   font-size: 48px;
+  align-items: center;
 }
