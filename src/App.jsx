@@ -22,6 +22,10 @@ const App = () => {
     return Array(9).fill(null);
   });
 
+  useEffect(() => {
+    console.log("init");
+  }, []);
+
   const updateBoard = (index) => {
     if (board[index] || winner) return;
 
